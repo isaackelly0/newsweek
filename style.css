@@ -1,0 +1,16 @@
+* {
+  border-style: groove;
+  border-color: black;
+  border-width: thin;
+}
+@media (min-width: 768px) {
+  .featured {
+    order: -1;
+  }
+  .turn {
+    order: 0;
+  }
+  .culture {
+    align-self: flex-end;
+  }
+}
