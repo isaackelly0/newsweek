@@ -3,17 +3,20 @@
   border-color: black;
   border-width: thin;
 }
+
 @media (min-width: 768px) {
-  .featured {
-    order: -1;
+  .row {
   }
-  .turn {
-    order: 0;
+  .A {
   }
-  .culture {
-    align-self: flex-end;
+  .B {
   }
-  /* .debate {
-    order: 1;
-  } */
+  .C {
+  }
+  .D {
+  }
+}
+@media (min-width: 992px) {
+  .row {
+  }
 }
