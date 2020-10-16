@@ -20,22 +20,83 @@
     <h1>Hello World!</h1>
     <div class="container-fluid">
       <div class="row">
-        <div class="col-md-6 col-lg-3 order-sm-1 order-md-2 A">
+        <div class="col-md-6 col-lg-4 order-sm-1 order-md-2 A">
           <div class="">
             Top
           </div>
-          <div class="">
+          <div class="D">
             Culture
           </div>
         </div>
-        <div class="col-md-6 col-lg-3 order-sm-2 order-md-1 B">
+        <div class="col-md-6 col-lg-4 order-sm-2 order-md-1 B">
           Featured
         </div>
-        <div class="col-lg-3 col-md-12 order-sm-3 C">
+        <div class="col-lg-4 col-md-12 order-sm-3 C">
           Debate
         </div>
       </div>
+      <div class="row magazine">
+        <div class="col-sm-12">
+          magazine
+        </div>
+      </div>
+
+      <div class="row editor">
+        <div class="col-sm-12">
+          editor
+        </div>
+      </div>
+
+      <div class="row us">
+        <div class="col">
+          U.S.
+        </div>
+      </div>
+      <div class="row world">
+        <div class="col">
+          world
+        </div>
+      </div>
+      <div class="row business">
+        <div class="col">
+          business
+        </div>
+      </div>
+      <div class="row science">
+        <div class="col">
+          science
+        </div>
+      </div>
+      <div class="row culture">
+        <div class="col">
+          culture
+        </div>
+      </div>
+      <div class="row sports">
+        <div class="col">
+          sports
+        </div>
+      </div>
+      <div class="row other">
+        <div class="col-lg-8">
+          subscribe
+        </div>
+        <div class="col-lg-4">
+          newsletter
+        </div>
+      </div>
     </div>
+    <p>Window height: <span id="height"></span></p>
+    <p>Window width: <span id="width"></span></p>
+    <script type="text/javascript">
+      const heightOutput = document.querySelector("#height");
+      const widthOutput = document.querySelector("#width");
+      function reportWindowSize() {
+        heightOutput.textContent = window.innerHeight;
+        widthOutput.textContent = window.innerWidth;
+      }
+      window.addEventListener("resize", reportWindowSize);
+    </script>
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
