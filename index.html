@@ -21,12 +21,7 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-6 col-lg-4 order-sm-1 order-md-2 A">
-          <div class="">
-            Top
-          </div>
-          <div class="D">
-            Culture
-          </div>
+          Top
         </div>
         <div class="col-md-6 col-lg-4 order-sm-2 order-md-1 B">
           Featured
@@ -34,15 +29,62 @@
         <div class="col-lg-4 col-md-12 order-sm-3 C">
           Debate
         </div>
+        <div
+          class="col-md-6 col-lg-4 order-lg-4 order-sm-last order-md-2 offset-md-6 offset-lg-4 D"
+        >
+          Culture
+        </div>
       </div>
       <div class="row magazine">
-        <div class="col-sm-12">
+        <div class="col-md-3">
+          magazine
+        </div>
+        <div class="col-md-3">
+          magazine
+        </div>
+        <div class="col-md-3">
+          magazine
+        </div>
+        <div class="col-md-3">
+          magazine
+        </div>
+        <div class="col-md-3">
+          magazine
+        </div>
+        <div class="col-md-3">
+          magazine
+        </div>
+        <div class="col-md-3">
+          magazine
+        </div>
+        <div class="col-md-3">
           magazine
         </div>
       </div>
 
       <div class="row editor">
-        <div class="col-sm-12">
+        <div class="col-md-3">
+          editor
+        </div>
+        <div class="col-md-3">
+          editor
+        </div>
+        <div class="col-md-3">
+          editor
+        </div>
+        <div class="col-md-3">
+          editor
+        </div>
+        <div class="col-md-3">
+          editor
+        </div>
+        <div class="col-md-3">
+          editor
+        </div>
+        <div class="col-md-3">
+          editor
+        </div>
+        <div class="col-md-3">
           editor
         </div>
       </div>
@@ -51,30 +93,46 @@
         <div class="col">
           U.S.
         </div>
+        <div class="col-md-4"></div>
+        <div class="col-md-4"></div>
       </div>
       <div class="row world">
         <div class="col">
           world
         </div>
+        <div class="col-md-4"></div>
+        <div class="col-md-4"></div>
       </div>
       <div class="row business">
         <div class="col">
           business
         </div>
+        <div class="col-md-4"></div>
+        <div class="col-md-4"></div>
       </div>
       <div class="row science">
         <div class="col">
           science
         </div>
+        <div class="col-md-4"></div>
+        <div class="col-md-4"></div>
       </div>
       <div class="row culture">
-        <div class="col">
+        <div class="col-md-4">
           culture
         </div>
+        <div class="col-md-4"></div>
+        <div class="col-md-4"></div>
       </div>
       <div class="row sports">
-        <div class="col">
+        <div class="col-md-4">
           sports
+        </div>
+        <div class="col-md-4">
+          sports
+        </div>
+        <div class="col-md-4">
+          stacks
         </div>
       </div>
       <div class="row other">
@@ -86,13 +144,10 @@
         </div>
       </div>
     </div>
-    <p>Window height: <span id="height"></span></p>
     <p>Window width: <span id="width"></span></p>
     <script type="text/javascript">
-      const heightOutput = document.querySelector("#height");
       const widthOutput = document.querySelector("#width");
       function reportWindowSize() {
-        heightOutput.textContent = window.innerHeight;
         widthOutput.textContent = window.innerWidth;
       }
       window.addEventListener("resize", reportWindowSize);
