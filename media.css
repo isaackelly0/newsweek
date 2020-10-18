@@ -1,0 +1,32 @@
+@media (min-width: 768px) and (max-width: 991px) {
+  .A {
+    /* position: sticky; */
+    /* height: 50px; */
+  }
+  .B {
+    /* height: 100px; */
+  }
+  .C {
+  }
+  .D {
+    /* position: absolute; */
+    /* top: 120px; */
+  }
+  .E {
+  }
+}
+/* @media (min-width: 992px) {
+  .container-fluid {
+    max-width: 1400px;
+  }
+  .row {
+  }
+  .B {
+    height: 100px;
+  }
+  .D {
+    position: relative;
+    top: -50px;
+    justify-content: center;
+  }
+} */
