@@ -18,5 +18,27 @@ nav ul {
   display: flex;
 }
 nav ul li {
-  margin: 0 2px;
+  margin: 0 5px;
+}
+nav ul li:nth-child(2) {
+  background-color: yellow;
+  border-radius: 25px;
+  padding: 0 5px;
+}
+.news span {
+  background-image: url("./illuna.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  height: 200px;
+}
+.news span p {
+  display: inline-block;
+  align-self: flex-end;
+  margin-bottom: 0;
+  background-color: #cecece;
+  color: red;
+  font-weight: bolder;
+  font-size: 30px;
+  padding: 0 5px;
 }
