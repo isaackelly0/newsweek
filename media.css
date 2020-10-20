@@ -14,6 +14,10 @@
   }
   .E {
   }
+  .news {
+    border-bottom: 0 none white;
+    margin-top: 0;
+  }
 }
 /* @media (min-width: 992px) {
   .container-fluid {

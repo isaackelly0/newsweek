@@ -20,52 +20,52 @@
   <body>
     <div class="container-fluid">
       <nav class="navbar">
-        <h1>Newsweek</h1>
+        <h4>Newsweek</h4>
         <ul>
           <li>icon</li>
-          <li>subscribe</li>
+          <li>
+            <!-- <button type="button" name="button" class="btn btn-warning">
+              Subscribe >
+            </button> -->
+            Subscribe >
+          </li>
           <li>bars</li>
         </ul>
       </nav>
       <div class="row">
         <div class="news col-md-6 col-lg-4 order-sm-1 order-md-2 A">
-          <h5>Top</h5>
+          <h5 class="title">Top</h5>
           <span><p>News</p></span>
           <h4>Senate to vote this week on Addtional</h4>
           <p>Something about stimulus package</p>
         </div>
         <div class="news col-md-6 col-lg-4 order-sm-2 order-md-1 B">
-          <h5>Featured</h5>
-          <!-- <ul> -->
-          <!-- <li> -->
+          <h5 class="title">Featured</h5>
+
           <span> <p>News</p> </span>
           <h4>Senate to vote this week on Addtional</h4>
           <p>Something about stimulus package</p>
-          <!-- </li> -->
-          <!-- <li> -->
+
           <span> <p>News</p> </span>
           <h4>Senate to vote this week on Addtional</h4>
           <p>Something about stimulus package</p>
-          <!-- </li> -->
+
           <span> <p>News</p> </span>
-          <!-- <li> -->
+
           <h4>Senate to vote this week on Addtional</h4>
           <p>Something about stimulus package</p>
-          <!-- </li> -->
-          <!-- <li> -->
+
           <span> <p>News</p> </span>
           <h4>Senate to vote this week on Addtional</h4>
           <p>Something about stimulus package</p>
-          <!-- </li> -->
-          <!-- </ul> -->
         </div>
         <div class="col-lg-4 col-md-12 order-sm-3 C">
-          <h5>Debate</h5>
+          <h5 class="title">Debate</h5>
           <ul>
             <li></li>
             <li></li>
           </ul>
-          <h5>Opinion</h5>
+          <h5 class="title">Opinion</h5>
           <ul>
             <li></li>
             <li></li>
@@ -74,7 +74,7 @@
         <div
           class="col-md-6 col-lg-4 order-lg-4 order-sm-4 order-md-2 offset-md-6 offset-lg-4 D"
         >
-          <h5>More stories</h5>
+          <h5 class="title">More stories</h5>
           <ul>
             <li></li>
             <li></li>
@@ -89,24 +89,34 @@
             <li></li>
             <li></li>
           </ul>
-          <h5>My turn</h5>
+          <h5 class="title">My turn</h5>
           <ul>
             <li></li>
             <li></li>
             <li></li>
           </ul>
-          <h5>Culture</h5>
+          <h5 class="title">Culture</h5>
           <ul>
             <li></li>
             <li></li>
             <li></li>
           </ul>
         </div>
-        <div class="col-md-12 order-sm-5 col-lg-4">
-          email
+        <div id="email" class="col-md-12 order-sm-5 col-lg-4">
+          <span>
+            <h3>Start</h3>
+            <ul>
+              <li><input type="text" name="" value="" /></li>
+              <li>
+                <button type="button" name="button" class="btn btn-danger">
+                  FREE SIGN UP >
+                </button>
+              </li>
+            </ul>
+          </span>
         </div>
       </div>
-      <h4>In the magazine</h4>
+      <h4 class="title2">In the magazine</h4>
       <div class="row magazine">
         <div class="col-md-3 diff">
           <span>Issue</span>
@@ -169,7 +179,7 @@
           <h6></h6>
         </div>
       </div>
-      <h4>Editor's pick</h4>
+      <h4 class="title2">Editor's pick</h4>
       <div class="row editor">
         <div class="col-md-6 col-lg-3">
           <span> News </span>
@@ -212,7 +222,7 @@
           <p>Something about stimulus package</p>
         </div>
       </div>
-      <h6>U.S.</h6>
+      <h6 class="title3">U.S.</h6>
       <div class="row us">
         <div class="col-md-4">
           <img src="./illuna.png" alt="" />
@@ -231,7 +241,7 @@
           <h4>filler</h4>
         </div>
       </div>
-      <h6>World</h6>
+      <h6 class="title3">World</h6>
       <div class="row world">
         <div class="col-md-4">
           <img src="./illuna.png" alt="" />
@@ -250,7 +260,7 @@
           <h4>filler</h4>
         </div>
       </div>
-      <h6>Business</h6>
+      <h6 class="title3">Business</h6>
       <div class="row business">
         <div class="col-md-4">
           <img src="./illuna.png" alt="" />
@@ -269,7 +279,7 @@
           <h4>filler</h4>
         </div>
       </div>
-      <h6>Science</h6>
+      <h6 class="title3">Science</h6>
       <div class="row science">
         <div class="col-md-4">
           <img src="./illuna.png" alt="" />
@@ -288,7 +298,7 @@
           <h4>filler</h4>
         </div>
       </div>
-      <h6>Culture</h6>
+      <h6 class="title3">Culture</h6>
       <div class="row culture">
         <div class="col-md-4">
           <img src="./illuna.png" alt="" />
@@ -307,7 +317,7 @@
           <h4>filler</h4>
         </div>
       </div>
-      <h6>Sports</h6>
+      <h6 class="title3">Sports</h6>
       <div class="row sports">
         <div class="col-md-4">
           <img src="./illuna.png" alt="" />
@@ -328,10 +338,27 @@
       </div>
       <div class="row other">
         <div class="col-lg-8">
-          subscribe
+          <h6 class="title3">Subscribe</h6>
+          <span>
+            <img src="" alt="" />
+            <h4 class="title2">In-depth</h4>
+            <p>weekly delivery</p>
+            <button type="button" name="button" class="btn btn-danger">
+              SUBSCRIBE >
+            </button>
+          </span>
         </div>
         <div class="col-lg-4">
-          newsletter
+          <h6 class="title3">Newsletter</h6>
+          <img src="" alt="" />
+          <h4 class="title2">The Starting 5</h4>
+          <p>See why</p>
+          <span class="subscribe">
+            <input type="text" name="" value="" />
+            <button type="button" name="button" class="btn btn-danger">
+              FREE SIGN UP >
+            </button>
+          </span>
         </div>
       </div>
     </div>
