@@ -60,9 +60,9 @@ nav ul li:nth-child(2) {
 }
 #email span ul li * {
   width: 250px;
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
 }
-#email span ul li input {
+input {
   border-style: groove;
   border-width: thin;
   border-radius: 0;
