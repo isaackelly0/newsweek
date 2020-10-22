@@ -1,4 +1,4 @@
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 768px) /*and (max-width: 991px) */ {
   .A {
     /* position: sticky; */
     /* top: 0; */
@@ -8,6 +8,7 @@
     /* height: 100px; */
   }
   .C {
+    margin-top: 80px;
   }
   .D {
     position: absolute;
