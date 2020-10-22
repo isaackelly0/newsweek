@@ -12,9 +12,9 @@
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="media.css" />
 
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media.css" />
     <title>Newsweek</title>
   </head>
   <body>
@@ -25,11 +25,20 @@
           <li>icon</li>
           <li>
             <!-- <button type="button" name="button" class="btn btn-warning">
-              Subscribe >
-            </button> -->
+                Subscribe >
+              </button> -->
             Subscribe >
           </li>
           <li>bars</li>
+        </ul>
+      </nav>
+      <nav id="links">
+        <ul>
+          <li>U.S.</li>
+          <li>World</li>
+          <li>Business</li>
+          <li>Science</li>
+          <li>Culture</li>
         </ul>
       </nav>
       <div class="row" id="upper">
@@ -373,7 +382,7 @@
           </span>
         </div>
       </div>
-      <h4 class="title2">In the magazine</h4>
+      <h4 class="title2" id="mid">In the magazine</h4>
       <div class="row magazine">
         <div class="col-md-3 news" id="diff">
           <span> <p>Issue</p> </span>
@@ -688,42 +697,53 @@
         <div class="col-lg-8">
           <h6 class="title3">Subscribe</h6>
           <span id="subscribe">
-            <img
-              src="https://d.newsweek.com/en/full/1643943/cover-october-09-16-2020.jpg?w=170&q=95&f=f8144d83a028a40fe7ea6a5ed615ded7"
-              alt=""
-            />
-            <img
-              src="https://d.newsweek.com/en/full/1653518/cover-october-23-2020.jpg?w=170&q=95&f=b35fed654708fe1b577840164dadeacf"
-              alt=""
-            />
-            <h4 class="title2">In-depth</h4>
-            <p>weekly delivery</p>
-            <div class="btn-box">
-              <button
-                type="button"
-                id="subscribe-btn"
-                name="button"
-                class="btn btn-danger"
-              >
-                SUBSCRIBE >
-              </button>
-            </div>
+            <span class="cover"
+              ><img
+                src="https://d.newsweek.com/en/full/1643943/cover-october-09-16-2020.jpg?w=170&q=95&f=f8144d83a028a40fe7ea6a5ed615ded7"
+                alt="" />
+              <img
+                src="https://d.newsweek.com/en/full/1653518/cover-october-23-2020.jpg?w=170&q=95&f=b35fed654708fe1b577840164dadeacf"
+                alt=""
+            /></span>
+            <span class="desc"
+              ><h4 class="title2">In-depth</h4>
+              <p>weekly delivery</p>
+              <div class="btn-box">
+                <button
+                  type="button"
+                  id="subscribe-btn"
+                  name="button"
+                  class="btn btn-danger"
+                >
+                  SUBSCRIBE >
+                </button>
+              </div>
+            </span>
           </span>
         </div>
         <div class="col-lg-4" id="newsletter">
           <h6 class="title3">Newsletter</h6>
-          <img
-            src="https://static2.mtgarena.pro/mtg/pict/illuna-apex-of-wishes-IKO-190-art-mtga.png"
-            alt=""
-          />
-          <h4 class="title2">The Starting 5</h4>
-          <p>See why</p>
-          <span class="letterbox">
-            <input type="text" name="" value="" />
-            <button type="button" name="button" class="btn btn-danger">
-              FREE SIGN UP >
-            </button>
-          </span>
+          <span class="newsletter"
+            ><img
+              src="https://static2.mtgarena.pro/mtg/pict/illuna-apex-of-wishes-IKO-190-art-mtga.png"
+              alt=""
+            />
+            <span class="prompt"
+              ><h4 class="title2">The Starting 5</h4>
+              <p>See why</p>
+              <span class="letterbox">
+                <input type="text" name="" value="" />
+                <button
+                  type="button"
+                  name="button"
+                  id="btn"
+                  class="btn btn-danger"
+                >
+                  FREE SIGN UP >
+                </button>
+              </span></span
+            ></span
+          >
         </div>
       </div>
     </div>
