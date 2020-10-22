@@ -2,7 +2,7 @@ ul {
   list-style: none;
   padding-left: 0;
 }
-nav {
+.navbar {
   background-color: red;
   white-space: nowrap;
   width: 100%;
@@ -17,10 +17,13 @@ nav ul {
 nav ul li {
   margin: 0 5px;
 }
-nav ul li:nth-child(2) {
+.navbar ul li:nth-child(2) {
   background-color: yellow;
   border-radius: 25px;
   padding: 0 10px;
+}
+#links {
+  display: none;
 }
 .news {
   /* border-bottom: 20px inset #cecece; */
