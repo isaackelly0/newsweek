@@ -37,30 +37,77 @@ nav ul li:nth-child(2) {
   display: inline-block;
   align-self: flex-end;
   margin-bottom: 0;
-  /* background-color: #cecece; */
   background-color: rgba(255, 255, 255, 0.9);
   color: red;
   font-weight: bolder;
   font-size: 20px;
-  padding: 0 5px;
+  padding: 0 20px;
 }
 .title {
   color: gray;
 }
 .C {
-  margin-top: 20px;
+  /* margin-top: 20px; */
+}
+.icon {
+  height: 60px;
+  margin-right: 20px;
+}
+#debate-header {
+  border-bottom: 5px #cecece solid;
+  padding-bottom: 15px;
+}
+#debate li,
+#opinion li,
+#stories li {
+  display: flex;
+}
+#debate li:nth-child(2) {
+  justify-content: center;
+}
+#debate li:nth-child(2) p {
+  font-size: 15px;
+  border-radius: 30px;
+  background-color: black;
+  color: white;
+  padding: 8px;
+}
+#debate li:last-child {
+  justify-content: space-between;
+  border-bottom: 5px #cecece solid;
+  padding-bottom: 15px;
+}
+#opinion li,
+#stories li,
+#stories-header {
+  padding: 8px 0;
+  border-bottom: 1px #cecece solid;
+}
+#opinion li:last-child,
+#stories li:last-child {
+  border-bottom: 0;
+}
+#stories li img {
+  height: 90px;
+}
+.list div img {
+  width: 100%;
 }
 #email {
   display: flex;
   justify-content: center;
 }
 #email span {
+  width: 300px;
   padding: 20px 20px 0 20px;
   background-color: #cecece;
 }
 #email span ul li * {
   width: 250px;
-  /* margin-bottom: 10px; */
+  margin-bottom: 10px;
+}
+#diff {
+  text-align: center;
 }
 input {
   border-style: groove;
@@ -70,10 +117,58 @@ input {
 #email span ul li button {
   margin-bottom: -5px;
 }
+#upper {
+  margin-bottom: 50px;
+}
 .title2 {
   font-weight: bolder;
   text-align: center;
 }
+.magazine div span {
+  display: flex;
+}
+.redbox {
+  background-color: red;
+  color: white;
+  margin-right: 10px;
+  padding: 2px 7px;
+}
+.redtext {
+  color: red;
+}
 .title3 {
   color: red;
+}
+.filler img {
+  max-width: 100%;
+}
+.stack img {
+  max-width: 40%;
+  margin-right: 15px;
+}
+.stack li {
+  display: flex;
+  margin: 20px 0;
+  border-bottom: 1px #cecece solid;
+  padding-bottom: 25px;
+}
+#subscribe {
+  text-align: center;
+}
+#newsletter img {
+  width: 100%;
+}
+#newsletter {
+  justify-content: center;
+}
+.letterbox {
+  display: flex;
+  justify-content: center;
+}
+.letterbox input {
+  width: 60%;
+}
+.letterbox button {
+  width: 40%;
+  border-radius: 0;
 }
