@@ -25,8 +25,9 @@
     max-width: 1400px;
   }
   .C {
+    /* margin-top: 20px;
     position: sticky;
-    top: 50px;
+    top: 5px; */
   }
   /* .row {
   }
@@ -39,7 +40,8 @@
     justify-content: center;
   }
   #email {
-    position: relative;
-    top: -200px;
+    /* position: relative;
+    top: 50px; */
+    max-height: 160px;
   }
 }
