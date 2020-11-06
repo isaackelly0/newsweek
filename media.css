@@ -1,12 +1,4 @@
-@media (min-width: 768px) /*and (max-width: 991px) */ {
-  .A {
-    /* position: sticky; */
-    /* top: 0; */
-    /* height: 50px; */
-  }
-  .B {
-    /* height: 100px; */
-  }
+@media (min-width: 768px) {
   .C {
     margin-top: 80px;
   }
@@ -22,9 +14,6 @@
   }
   #subscribe {
     display: flex;
-  }
-  .cover {
-    /* float: left; */
   }
   .desc {
     margin-left: 50px;
@@ -43,7 +32,6 @@
     height: 180px;
   }
   .prompt {
-    /* display: flex; */
     align-content: center;
   }
   .letterbox input {
@@ -72,11 +60,6 @@
     position: relative;
     top: 5px;
   }
-  /* .row {
-  }
-  .B {
-    height: 100px;
-  }*/
   .D {
     position: relative;
     top: -1750px;
@@ -92,9 +75,6 @@
   }
   #subscribe {
     display: flex;
-  }
-  .cover {
-    /* float: left; */
   }
   .desc {
     margin-left: 50px;
