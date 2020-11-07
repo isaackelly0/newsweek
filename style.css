@@ -39,7 +39,9 @@ nav ul li {
   margin-top: 20px;
 }
 .news span {
-  background-size: cover;
+  /* background-size: ; */
+  background-position: cover;
+  background-repeat: no-repeat;
   display: flex;
   height: 360px;
 }
