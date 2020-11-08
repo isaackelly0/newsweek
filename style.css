@@ -136,6 +136,10 @@ input {
 .magazine div span {
   display: flex;
 }
+.magazine img {
+  height: 50%;
+  width: 100%;
+}
 .redbox {
   background-color: red;
   color: white;
