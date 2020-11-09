@@ -39,8 +39,8 @@ nav ul li {
   margin-top: 20px;
 }
 .news span {
-  /* background-size: ; */
-  background-position: cover;
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   display: flex;
   height: 360px;
@@ -133,11 +133,14 @@ input {
   font-weight: bolder;
   text-align: center;
 }
+.magazine div {
+  height: 40vh;
+}
 .magazine div span {
   display: flex;
 }
 .magazine img {
-  height: 50%;
+  height: 90%;
   width: 100%;
 }
 .redbox {
