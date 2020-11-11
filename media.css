@@ -12,6 +12,9 @@
     border-bottom: 0 none white;
     margin-top: 0;
   }
+  .list div img {
+    height: 10rem;
+  }
   #subscribe {
     display: flex;
   }
