@@ -17,6 +17,10 @@
   }
   #subscribe {
     display: flex;
+    margin-bottom: 50px;
+  }
+  .cover {
+    position: inherit;
   }
   .desc {
     margin-left: 50px;
@@ -38,10 +42,10 @@
     align-content: center;
   }
   .letterbox input {
-    width: 50%;
+    width: 60%;
   }
   .letterbox button {
-    width: 50%;
+    width: 40%;
   }
 }
 @media (min-width: 992px) {
@@ -79,7 +83,11 @@
   #subscribe {
     display: flex;
   }
-  .desc {
-    margin-left: 50px;
+  .letterbox {
+    display: inline-block;
+    /* width: 100%; */
+  }
+  .letterbox .btn {
+    width: auto;
   }
 }

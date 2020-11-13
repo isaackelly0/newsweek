@@ -171,6 +171,21 @@ input {
 }
 #subscribe {
   text-align: center;
+  display: flex;
+}
+.cover {
+  position: relative;
+  left: 50%;
+}
+.cover img:last-child {
+  position: relative;
+  top: 20%;
+  left: -30%;
+}
+.desc {
+  position: relative;
+  z-index: 1;
+  align-self: center;
 }
 #newsletter img {
   width: 100%;
@@ -183,9 +198,9 @@ input {
   justify-content: center;
 }
 .letterbox input {
-  width: 60%;
+  width: 50%;
 }
 .letterbox button {
-  width: 40%;
+  width: 50%;
   border-radius: 0;
 }
